@@ -1,0 +1,42 @@
+*{margin:0;padding:0;}
+body{font-family: "Trebuchet MS";}
+#logo{width: 500px;float: left;font-size: 26px;}
+#sair a{text-decoration: none;color: #FF0000;}
+#titulo_logo{color: #FF0000;}
+#container{width: 900px;margin: 0 auto;}
+#bemvindo{width:300px;float: right;font-weight: lighter;font-size:16px;color: #333;margin-top: 10px;}
+#nav{width: 200px;clear: both;float: left;}
+#conteudo{width: 650px;float: right;}
+#nav_conteudo{position: relative;top: 30px;}
+#nav ul{display: block;}
+#nav ul li{list-style: none;font-size: 14px;padding: 3px 0;background-color: #EEEEEE;margin: 2px 0;border: solid 1px #ccc;}
+#nav ul li a{text-decoration: none;color: #333;font-weight: lighter;}
+#nav ul li a:hover{background-color: #FF0000;color: #FFF;display: block;}
+#nav ul .separador{padding: 5px 0;background-color: #FFF;border: none;}
+
+/*FORM*/
+.form{width: 520px;background-color: #f2f2f2;padding: 10px;border: solid 1px #ccc;}
+.form label{display: block;}
+.form h2{font-size: 22px;color: #FF0000;padding: 5px 0;}
+.form .input_text{height: 25px;width: 200px;font-size: 18px;}
+.form .input_button{background-color: #FF0000;color: #FFF;padding:3px;}
+.form .input_select{height: 25px;width: 200px;font-size: 18px;}
+.form .input_file{width: 500px;font-size: 18px;border:solid 1px #ccc;}
+.erro{color: #FF0000;font-size: 22px;margin-top: 10px;}
+.sucesso{color: green;font-size: 22px;margin-top: 10px;}
+/*FORM*/
+
+
+/*FORM ALTERAR*/
+.form_alterar{width: 700px;}
+.form_alterar tr{font-size: 20px;text-align: center;}
+.form_alterar tr td{border: solid 1px #ccc;font-size:18px;}
+.form_alterar .conteudo_alterar{font-size: 14px;text-align: left;}
+.form_alterar .input_text{height: 25px;width: 200px;font-size: 18px;}
+.form_alterar .input_button{background-color: #FF0000;color: #FFF;padding:3px;}
+.form_alterar .input_select{height: 25px;width: 200px;font-size: 18px;}
+.form_alterar .input_file{width: 500px;font-size: 18px;border:solid 1px #ccc;}
+.form_alterar h2{font-size: 22px;color: #FF0000;padding: 5px 0;}
+
+
+/*FORM ALTERAR*/
